@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    font-family: 'Pretendard';
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+.title {
+    margin-top: 103px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+img {
+    margin-bottom: 0;
+}
+
+p {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    margin-top: 0;
+    display: flex;
+}
+#button1,
+#button2 {
+    width: 460px;
+    height: 56px;
+    padding: 16px 24px;
+    border-radius: 8px;
+    gap: 10px;
+    border: none;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #3B4054;
+    margin-bottom: 8px;
+    background-color: #E9F5F1;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* 가운데 정렬을 위한 스타일 추가 */
+}
+
+#button2 {
+    width: 460px;
+    height: 56px;
+    padding: 16px 24px;
+    border-radius: 8px;
+    gap: 10px;
+    border: none;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #3B4054;
+    margin-bottom: 8px;
+    background-color: #F0F0FC;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* 가운데 정렬을 위한 스타일 추가 */
+}
+
+.button {
+    width: 460px;
+    height: 120px;
+    top: 321px;
+    left: 730px;
+    gap: 8px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.16px;
+}
+@media (max-width: 768px) { /* 모바일 미디어 쿼리에 맞게 조절 */
+    body{
+        overflow: hidden;
+    }
+.title{
+    margin-top: 103px;
+}
+    #button1, #button2 {
+        width: 298px;
+        height: 56px; /* 높이를 56px로 설정 */
+        display: inline-flex;
+        gap: 8px;
+        padding: 16px 24px;
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: -0.16px;
+    }
+}
+
+
+
+
